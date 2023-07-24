@@ -1,2 +1,7 @@
-<p>list works!</p>
-<h1>{{ listmsg}}</h1>
+<p>{{ postArray }}</p>
+<ul>
+    <!-- <li *ngFor = "let the post of postArray" >{{ post }}</li> -->
+</ul>
+<ul>
+    <li *ngFor = "let the post of objArray " >{{ post | json }}</li>
+</ul>
