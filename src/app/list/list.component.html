@@ -1,7 +1,5 @@
-<p>{{ postArray }}</p>
 <ul>
-    <!-- <li *ngFor = "let the post of postArray" >{{ post }}</li> -->
-</ul>
-<ul>
-    <li *ngFor = "let the post of objArray " >{{ post | json }}</li>
+    <li *ngFor="let post of posts">
+{{post.Postitle}}
+    </li>
 </ul>
